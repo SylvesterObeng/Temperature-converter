@@ -5,7 +5,7 @@ const celsius = document.getElementById('celsius')
 const fahrenhiet = document.getElementById('fahrenhiet')
 const displayResult = document.getElementById('display__text')
 
-// displayResult.style.display = 'none'
+displayResult.style.display = 'none'
 
 let temp;
 
