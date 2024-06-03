@@ -1,0 +1,68 @@
+body{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card{
+    width: 400px;
+    height: min(50rem, 20rem);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 50px .4rem rgba(92, 92, 92, 0.281);
+    border-radius: .4rem;
+}
+
+.card h1{
+    font-size: 18px;
+}
+
+.div__group{
+    padding: 10px;
+    width: 20rem;
+}
+
+.div__group input{
+    font-size: 1.5rem;
+    padding: 10px;
+    outline: none;
+    border: .12rem solid rgb(197, 128, 0);
+    border-radius: .3rem;
+    margin-bottom: 20px;
+}
+
+.div__group input::placeholder{
+    opacity: 30%;
+    font-size: medium;
+    font-style: italic;
+}
+
+#display__text{
+    margin-left: 10px;
+    font-size: 18px;
+    background: wheat;
+    width: fit-content;
+    padding: 8px;
+    border-radius: .3rem;
+}
+.submit__btn{
+    padding: .8rem 8rem;
+    background: transparent;
+    border-radius: .4rem ;
+    outline: none;
+    border: .12rem solid black;
+    transition: .2s all linear;
+    text-transform: uppercase;
+}
+
+.submit__btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: wheat;
+}
